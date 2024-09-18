@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home - Restaurant</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css"> <!-- External CSS for custom styles -->
+  <style>
+    /* Styles for the Hero Section */
+    .hero {
+      position: relative;
+      background: url('images/image.jpg') center/cover no-repeat; /* Background image */
+      height: 100vh;
+      color: #fff;
+    }
+    .hero-overlay {
+      background: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay */
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .fadeInDown {
+      animation: fadeInDown 1s;
+    }
+    .fadeInUp {
+      animation: fadeInUp 1s;
+    }
+    /* Add keyframes for animations */
+    @keyframes fadeInDown {
+      0% { opacity: 0; transform: translateY(-20px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes fadeInUp {
+      0% { opacity: 0; transform: translateY(20px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+    .btn-custom {
+      border-radius: 50px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+      transition: all 0.3s ease;
+    }
+    .btn-custom:hover {
+      background-color: #fff;
+      color: #000;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navigation Bar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top shadow-sm">
+  <div class="container">
+    <!-- Logo and Brand Name -->
+    <a class="navbar-brand d-flex align-items-center" href="index.html">
+      <img src="images/logo.png" alt="Restaurant Logo" class="logo mr-2">
+      <span class="brand-name font-weight-bold text-primary">GMPP</span>
+    </a>
+
+    <!-- Welcome Message (Optional: Hidden on smaller screens) -->
+    <div class="d-none d-lg-block ml-auto">
+      <a class="mb-0 font-weight-bold text-dark">Welcome to GMPP - Great Meals Perfect Place with Our Spicy Delights</a>
+    </div>
+
+    <!-- Mobile Toggle Button -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Navbar Links -->
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link font-weight-bold text-dark" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link font-weight-bold text-dark" href="menu.html">Menu</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link font-weight-bold text-dark" href="about.html">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link font-weight-bold text-dark" href="contact.html">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+  <!-- Hero Section -->
+  <header class="hero text-center">
+    <div class="hero-overlay">
+      <div class="container">
+        <h1 class="display-4 font-weight-bold mb-4 fadeInDown">Welcome to GMPP Restaurant</h1>
+        <p class="lead mb-4 fadeInUp"><em>Indian flavors at Great Meals Perfect Place Restaurant, where every dish is a delightful journey crafted with love and passion. <mark>Enjoy our delicious offerings, and to make your experience even sweeter, your first order is on us!</mark> Come savor the taste of authentic cuisine, served with warmth and care.</em></p>
+        <a href="menu.html" class="btn btn-light btn-lg mt-3 btn-custom"><b>Explore Our Menu</b></a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Bootstrap JS, Popper.js, and jQuery -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

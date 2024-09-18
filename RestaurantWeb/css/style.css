@@ -1,0 +1,70 @@
+/* General Styles */
+body {
+  padding-top: 56px; /* Space for fixed navbar */
+  font-family: Arial, sans-serif; /* Improved font for better readability */
+  color: #333; /* Default text color */
+  line-height: 1.6; /* Better line spacing */
+}
+
+.hero {
+  background: url('https://via.placeholder.com/1920x500') no-repeat center center;
+  background-size: cover;
+  padding: 120px 0; /* Increased padding for more emphasis */
+  color: #fff;
+  text-align: center; /* Center text for better alignment */
+}
+
+.hero h1 {
+  font-size: 3rem; /* Larger font size for headings */
+  margin-bottom: 20px; /* Space below heading */
+}
+
+.hero p {
+  font-size: 1.25rem; /* Increased font size for readability */
+  margin-bottom: 40px; /* Space below paragraph */
+}
+
+.logo {
+  height: 50px; /* Slightly larger logo for better visibility */
+}
+
+.menu .card {
+  margin-bottom: 30px; /* Increased margin for spacing */
+  border-radius: 8px; /* Rounded corners for a softer look */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  transition: transform 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.menu .card:hover {
+  transform: translateY(-5px); /* Lift effect on hover */
+}
+
+.about img {
+  border-radius: 8px; /* Rounded corners for images */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.contact .map {
+  margin-top: 40px; /* Increased margin for spacing */
+  border: 1px solid #ddd; /* Border for better definition */
+  border-radius: 8px; /* Rounded corners */
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .hero {
+    padding: 80px 0; /* Adjusted padding for smaller screens */
+  }
+
+  .hero h1 {
+    font-size: 2.5rem; /* Adjusted font size for smaller screens */
+  }
+
+  .hero p {
+    font-size: 1rem; /* Adjusted font size for smaller screens */
+  }
+
+  .logo {
+    height: 40px; /* Revert logo size for smaller screens */
+  }
+}

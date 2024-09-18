@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu - Restaurant</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<!-- Navigation Bar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top shadow-sm">
+  <div class="container">
+    <!-- Logo and Brand Name -->
+    <a class="navbar-brand d-flex align-items-center" href="index.html">
+      <img src="images/logo.png" alt="Restaurant Logo" class="logo mr-2">
+      <span class="brand-name font-weight-bold text-primary">GMPP</span>
+    </a>
+
+    <!-- Welcome Message (Optional: Hidden on smaller screens) -->
+    <div class="d-none d-lg-block ml-auto">
+      <a class="mb-0 font-weight-bold text-dark">Welcome to GMPP - Great Meals Perfect Place with Our Spicy Delights</a>
+    </div>
+
+    <!-- Mobile Toggle Button -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Navbar Links -->
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link font-weight-bold text-dark" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link font-weight-bold text-dark" href="menu.html">Menu</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link font-weight-bold text-dark" href="about.html">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link font-weight-bold text-dark" href="contact.html">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+  <!-- Menu Section -->
+  <section class="menu py-5">
+    <div class="container">
+      <h2 class="text-center mb-4"><b>Our Menu</b></h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card">
+            <img src="images/dish1.jpg" class="card-img-top" alt="Dish 1">
+            <div class="card-body">
+              <h5 class="card-title">Dish 1</h5>
+              <p class="card-text">North Indian dishes</p>
+              <p class="card-text"><strong>&#8377 480</strong></p>
+              <a href="buy.html?item=fry-piece-north" class="btn btn-primary">Buy</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="images/dish2.jpg" class="card-img-top" alt="Dish 2">
+            <div class="card-body">
+              <h5 class="card-title">Dish 2</h5>
+              <p class="card-text">South Indian dishes - Sambar Pure Veg</p>
+              <p class="card-text"><strong>&#8377 500</strong></p>
+              <a href="buy.html?item=fry-piece-south" class="btn btn-primary">Buy</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="images/dish3.jpg" class="card-img-top" alt="Dish 3">
+            <div class="card-body">
+              <h5 class="card-title">Dish 3</h5>
+              <p class="card-text">North Indian dishes - Kadai Paneer, Italian Roti</p>
+              <p class="card-text"><strong>&#8377 480</strong></p>
+              <a href="buy.html?item=fry-piece-kadai" class="btn btn-primary">Buy</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="images/dish4.jpg" class="card-img-top" alt="Dish 4">
+            <div class="card-body">
+              <h5 class="card-title">Dish 4</h5>
+              <p class="card-text">Curry, Green curry with Food styling</p>
+              <p class="card-text"><strong>&#8377 400</strong></p>
+              <a href="buy.html?item=fry-piece-curry" class="btn btn-primary">Buy</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="images/dish5.jpg" class="card-img-top" alt="Dish 5">
+            <div class="card-body">
+              <h5 class="card-title">Dish 5</h5>
+              <p class="card-text">Curry Samosa Chaat with green chutney</p>
+              <p class="card-text"><strong>&#8377 290.99</strong></p>
+              <a href="buy.html?item=fry-piece-curry" class="btn btn-primary">Buy</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="images/dish6.jpg" class="card-img-top" alt="dish 6">
+            <div class="card-body">
+              <h5 class="card-title">Dish 6</h5>
+              <p class="card-text">Set of a full plate of Indian food</p>
+              <p class="card-text"><strong>&#8377 450</strong></p>
+              <a href="buy.html?item=fry-piece-food" class="btn btn-primary">Buy</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Bootstrap JS, Popper.js, and jQuery -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
